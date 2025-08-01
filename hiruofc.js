@@ -29,7 +29,7 @@ const downloadAndExtractMegaZip = (megaUrl) => {
         // Delete the ZIP file after extraction
         fs.unlinkSync(zipPath);
 
-        console.log('Downloading Success And Starting ✅');
+        console.log('Downloading Success And Starting 🇱🇰✅');
         resolve();
       });
     } catch (error) {
